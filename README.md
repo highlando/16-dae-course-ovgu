@@ -6,7 +6,7 @@ Hier gibt's grundlegende und laufend aktualisierte Informationen und Materialien
 <a name="overview"\>
 
 ### Inhalte (22+6=28) 
- 0. Einf&uuml;hrende Betrachtungen (1) [week 1](#week1)
+ 0. Einf&uuml;hrende Betrachtungen (1) [[week 1]](#week1)
    * DAEs in der mathematischen Modellierung 
    * Anwendungsbeispiele
    * Herausforderungen in der numerischen und analytischen Behandlung von DAEs
