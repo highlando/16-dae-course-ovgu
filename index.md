@@ -8,15 +8,14 @@ Course DAEs - OvGU - 2016
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
 
-<a name="overview"\>
 
 | Day | Time | Place |
 | ------- | ------ | ------- |
 | Tuesday | 5:00-6:30 PM | G14-101 |
 | Wednesday | 9:30-11:00 AM | G14-101 |
 
-### Course of the lecture (22+6=28) 
- 0. Introductory considerations (1) [[week 1]](#week1)
+<h3 id="overview">Course of the lecture (22+6=28)</h3>
+ 0. Introductory considerations (1) [[week 1]](#week-1)
    * DAEs in mathematical modelling
    * Applications areas and examples
    * Challenges in the numerical and analytical treatment of DAEs
@@ -47,7 +46,6 @@ Here you find basic and current information and materials for the lecture
    * Time integration
    * Index reduction
 
-<a name="week1"/>
 ### Week 1
 #### Introductory considerations (1)
 +++ DAEs are coupled differential and nondifferential (algebraic) equations +++ cf. the pendulum +++ which is naturally modelled as a DAE +++ as are electrical circuits, chemical reactions, and flows +++ in numerical schemes, equations are solved approximately - what does this mean for the pendulum? +++  [back to overview](#overview)
@@ -55,13 +53,11 @@ Here you find basic and current information and materials for the lecture
 #### General notions from DAE calculus (1)
 +++ we consider *C1*-solutions although there are many ways to define less regular solutions +++ existence of solutions depends on several factors +++ smoothness of *right hand sides* +++ consistency of initial values +++ *hidden constraints* and *underlying ODE* +++ many ways to classify DAEs <-> many *indices* +++ [back to overview](#overview)
 
-<a name="literature"\>
-##### Literature
+###### Literature
 
 | Author | Title | comments |
 | ------- | ------ | ------- |
 | Kunke, Mehrmann | Differential-Algebraic Equations | Main reference, very concise, sometimes hard to read |
 | Hairer, Wanner | Solving ODEs. (Stiff and DAEs) | standard reference for solving ODEs (the first volume), intuitive and practical approach to numerical analysis of certain DAEs |
 
-<a name="week2"/>
 ### Week 2
