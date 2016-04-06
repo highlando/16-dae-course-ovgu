@@ -6,8 +6,6 @@ Here you find basic and current information and materials for the lecture
 
 <a name="overview"\>
 
-#### Dates of the lecture (weekly)
-
 | Day | Time | Place |
 | ------- | ------ | ------- |
 | Tuesday | 9:30-11:00 AM | G14-101 |
