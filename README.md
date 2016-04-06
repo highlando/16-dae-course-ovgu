@@ -16,7 +16,7 @@ Here you find basic and current information and materials for the lecture
    * DAEs in mathematical modelling
    * Applications areas and examples
    * Challenges in the numerical and analytical treatment of DAEs
-   * Literature
+   * [Literature](#literature)
  0. General notions from DAE calculus (1+1)
    * Solutions and solvability
    * Consistency and regularity
@@ -50,3 +50,11 @@ Here you find basic and current information and materials for the lecture
 
 #### General notions from DAE calculus (1)
 +++ we consider *C1*-solutions although there are many ways to define less regular solutions +++ existence of solutions depends on several factors +++ smoothness of *right hand sides* +++ consistency of initial values +++ *hidden constraints* and *underlying ODE* +++ many ways to classify DAEs <-> many *indices* +++ [back to overview](#overview)
+
+<a name="literature"\>
+##### Literature
+
+| Author | Title | comments |
+| ------- | ------ | ------- |
+| Kunke, Mehrmann | Differential-Algebraic Equations | Main reference, very concise, sometimes hard to read |
+| Hairer, Wanner | Solving ODEs. (Stiff and DAEs) | standard reference for solving ODEs (the first volume), intuitive and practical approach to numerical analysis of certain DAEs |
