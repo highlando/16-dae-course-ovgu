@@ -1,46 +1,53 @@
-Vorlesung DAEs - OvGU - 2016
+Course DAEs - OvGU - 2016
 -----
 
-Hier gibt's grundlegende und laufend aktualisierte Informationen und Materialien zur Vorlesung *DAEs* an der OvGU im Sommersemester 2016.
+Here you find basic and current information and materials for the lecture 
+*DAEs* at the OvGU in the summer term 2016.
 
 <a name="overview"\>
 
-### Inhalte (22+6=28) 
- 0. Einf&uuml;hrende Betrachtungen (1) [[week 1]](#week1)
-   * DAEs in der mathematischen Modellierung 
-   * Anwendungsbeispiele
-   * Herausforderungen in der numerischen und analytischen Behandlung von DAEs
-   * Literatur
- 0. Allgemeine Begriffe in der DAE Theorie (1+1)
-   * L&ouml;sungsbegriff
-   * Konsistenz und Regularit&auml;t
-   * Index
- 0. Lineare zeitinvariante DAEs (4+1)
-   * Algebraische Grundlagen
-   * Normalform
-   * L&ouml;sbarkeit und L&ouml;sungsdarstellung
- 0. Lineare zeitvariante und nichtlineare DAEs (4+1)
-   * Fundamentale Unterschiede zum linearen zeitinvarianten Fall
+#### Dates of the lecture (weekly)
+
+--------|--------|---------|
+| Tuesday | 9:30-11:00 AM | G14-101 |
+| Wednesday | 5:00-6:30 PM | G14-101 |
+
+### Course of the lecture (22+6=28) 
+ 0. Introductory considerations (1) [[week 1]](#week1)
+   * DAEs in mathematical modelling
+   * Applications areas and examples
+   * Challenges in the numerical and analytical treatment of DAEs
+   * Literature
+ 0. General notions from DAE calculus (1+1)
+   * Solutions and solvability
+   * Consistency and regularity
+   * Indices
+ 0. Linear time-invariant DAEs (4+1)
+   * Basic algebraic concepts
+   * Normal forms
+   * Solvability and representations of solutions
+ 0. Linear time-varying and nonlinear DAEs (4+1)
+   * Fundamental differences with the linear time-invariant case
    * *Derivative Arrays*
    * *Differentiation-index and Strangeness-index*
- 0. Numerische Zeitintegration von DAEs (6+2)
-   * Exkurs: Numerische Zeitintegration von gew&ouml;hnlichen Differentialgleichungen
-   * Runge-Kutta Verfahren f&uuml;r DAEs
-   * *Backward Differencing* f&uuml;r DAEs
- 0. Verfahren zur Indexreduktion (2+1)
-   * Theorie
-   * Numerische Umsetzung
- 0. DAEs mit Steuerungseingriffen (2)
-   * Beschreibung als *Behavior*
-   * Indexreduktion durch *Feedback*
- 0. Beispiele aus der aktuellen Forschung (2)
-   * Zeitintegration
-   * Indexreduktion
+ 0. Numerical integration of DAEs (6+2)
+   * Digression: Numerical integration of ODEs
+   * Runge-Kutta methods for DAEs
+   * *Backward Differencing* for DAEs
+ 0. Methods for index reduction (2+1)
+   * Theory
+   * Numerical realization
+ 0. DAEs with controls (2)
+   * Representation as *Behavior*
+   * Index reduction through *Feedback*
+ 0. Examples from recent research (2)
+   * Time integration
+   * Index reduction
 
 <a name="week1"/>
-### Woche 1
-#### Einf&uuml;hrende Betrachtungen (1)
-+++ DAEs are coupled differential and nondifferential (algebraic) equations +++ cf. the pendulum +++ which is naturally modelled as a DAE +++ as are electrical circuits, chemical reactions, and flows +++ in numerical schemes, equations are solved approximately - what does this mean for the pendulum? +++  [back to overview](#overview) +++
+### Week 1
+#### Introductory considerations (1)
++++ DAEs are coupled differential and nondifferential (algebraic) equations +++ cf. the pendulum +++ which is naturally modelled as a DAE +++ as are electrical circuits, chemical reactions, and flows +++ in numerical schemes, equations are solved approximately - what does this mean for the pendulum? +++  [back to overview](#overview)
 
-#### Allg. Begriffe (1)
-+++ we consider *C1*-solutions although there are many ways to define less regular solutions +++ existence of solutions depends on several factors +++ smoothness of *right hand sides* +++ consistency of initial values +++ *hidden constraints* and *underlying ODE* +++ many ways to classify DAEs <-> many *indices* +++ [back to overview](#overview) +++
+#### General notions from DAE calculus (1)
++++ we consider *C1*-solutions although there are many ways to define less regular solutions +++ existence of solutions depends on several factors +++ smoothness of *right hand sides* +++ consistency of initial values +++ *hidden constraints* and *underlying ODE* +++ many ways to classify DAEs <-> many *indices* +++ [back to overview](#overview)
