@@ -8,8 +8,8 @@ Here you find basic and current information and materials for the lecture
 
 | Day | Time | Place |
 | ------- | ------ | ------- |
-| Tuesday | 9:30-11:00 AM | G14-101 |
-| Wednesday | 5:00-6:30 PM | G14-101 |
+| Tuesday | 5:00-6:30 PM | G14-101 |
+| Wednesday | 9:30-11:00 AM | G14-101 |
 
 ### Course of the lecture (22+6=28) 
  0. Introductory considerations (1) [[week 1]](#week1)
