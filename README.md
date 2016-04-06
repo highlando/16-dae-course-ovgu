@@ -8,7 +8,7 @@ Here you find basic and current information and materials for the lecture
 
 #### Dates of the lecture (weekly)
 
---------|--------|---------|
+| ------- | ------ | ------- |
 | Tuesday | 9:30-11:00 AM | G14-101 |
 | Wednesday | 5:00-6:30 PM | G14-101 |
 
