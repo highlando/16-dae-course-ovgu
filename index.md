@@ -24,8 +24,8 @@ Here you find basic and current information and materials for the lecture
    * Solutions and solvability
    * Consistency and regularity
    * Indices
- 0. Linear time-invariant DAEs (4+1)
-   * Basic algebraic concepts
+ 0. Linear DAEs with constant coefficients (4+1)
+   * Basic algebraic concepts [[week 2]](#week-2)
    * Normal forms
    * Solvability and representations of solutions
  0. Linear time-varying and nonlinear DAEs (4+1)
@@ -63,3 +63,6 @@ Here you find basic and current information and materials for the lecture
 | Hairer, Wanner | Solving ODEs. (Stiff and DAEs) | standard reference for solving ODEs (the first volume), intuitive and practical approach to numerical analysis of certain DAEs |
 
 ### Week 2
+
+#### Linear DAEs with constant coefficients (1)
++++ variable transforms and scalings do not affect solvability +++ DAEs <-> (E, A) matrix pairs +++ canonical forms +++ Weierstrass canonical form +++ canonical form of a linear DAE with constant coefficients +++ [back to overview](#overview)
