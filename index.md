@@ -5,7 +5,7 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
-> :rocket: The lecture of Wednesday, April 21st, is shifted to 9:00.
+> :rocket: The lecture of Wednesday, April 20th, is shifted to 9:00.
 
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
