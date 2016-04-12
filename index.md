@@ -5,14 +5,16 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
+> :rocket: The lecture of Wednesday, April 21st, is shifted to 9:00.
+
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
 
 
 | Day | Time | Place |
 | ------- | ------ | ------- |
-| Tuesday | 5:00-6:30 PM | G14-101 |
-| Wednesday | 9:30-11:00 AM | G14-101 |
+| Tuesday | 17:00-18:30 | G14-101 |
+| Wednesday | 9:30-11:00 | G14-101 |
 
 <h3 id="overview">Course of the lecture (22+6=28)</h3>
  0. Introductory considerations (1) [[week 1]](#week-1)
@@ -45,6 +47,12 @@ Here you find basic and current information and materials for the lecture
  0. Examples from recent research (2)
    * Time integration
    * Index reduction
+
+#### Exercises
+
+| Date | Topic | link |
+| ------- | ------ | ------- |
+| April 19th | I - Introductory Considerations and Basic Notions | [ueb1.pdf](exercises/01/ueb01.pdf) |
 
 ### Week 1
 
