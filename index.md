@@ -10,11 +10,12 @@ Course DAEs - OvGU - 2016
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
 
-
 | Day | Time | Place |
 | ------- | ------ | ------- |
 | Tuesday | 17:00-18:30 | G14-101 |
 | Wednesday | 9:30-11:00 | G14-101 |
+
+:memo: Jump to the [exercises](#exercises) section.
 
 <h3 id="overview">Course of the lecture (22+6=28)</h3>
  0. Introductory considerations (1) [[week 1]](#week-1)
@@ -48,7 +49,7 @@ Here you find basic and current information and materials for the lecture
    * Time integration
    * Index reduction
 
-#### Exercises
+### Exercises
 
 | Date | Topic | link |
 | ------- | ------ | ------- |
