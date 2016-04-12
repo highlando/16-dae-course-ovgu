@@ -68,7 +68,7 @@ Here you find basic and current information and materials for the lecture
 
 | Author | Title | comments |
 | ------- | ------ | ------- |
-| Kunke, Mehrmann | Differential-Algebraic Equations | Main reference, very concise, sometimes hard to read |
+| Kunkel, Mehrmann | Differential-Algebraic Equations | Main reference, very concise, sometimes hard to read |
 | Hairer, Wanner | Solving ODEs. (Stiff and DAEs) | standard reference for solving ODEs (the first volume), intuitive and practical approach to numerical analysis of certain DAEs |
 
 ### Week 2
