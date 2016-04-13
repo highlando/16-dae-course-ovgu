@@ -5,7 +5,8 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
-> :rocket: The lecture of Wednesday, April 20th, is shifted to 9:00.
+> :rocket: The lecture of Wednesday, April 20th, is shifted to 9:00-10:30.
+> :rocket: :rocket: In the next lecture on Wednesday, April 19th, we will discuss [exercise sheet I](exercises/01/ueb01.pdf) 
 
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
@@ -75,3 +76,6 @@ Here you find basic and current information and materials for the lecture
 
 #### Linear DAEs with constant coefficients (1)
 +++ variable transforms and scalings do not affect solvability +++ DAEs <-> (E, A) matrix pairs +++ canonical forms +++ Weierstrass canonical form +++ canonical form of a linear DAE with constant coefficients +++ [back to overview](#overview)
+
+#### Linear DAEs with constant coefficients (2)
++++ splitting of DAEs into an ODE and a nilpotent DAE +++ explicit solution of the nilpotent DAE +++ index of a matrix pair (E,A) and its well-definedness +++ [back to overview](#overview)
