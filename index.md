@@ -5,7 +5,7 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
-> :rocket: **We have a new room - all lectures are moved to G05-313**
+> :rocket: **We have a new room - all lectures are moved to G05-313** :rocket: :rocket: 
 
 > :rocket: The lecture of Wednesday, April 20th, is shifted to 9:00-10:30.
 > :rocket: :rocket: In the next lecture on Wednesday, April 19th, we will discuss [exercise sheet I](exercises/01/ueb01.pdf) 
