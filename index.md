@@ -5,10 +5,9 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
-> :rocket: **We have a new room - all lectures are moved to G05-313** :rocket: :rocket: 
+> :rocket: We have a new room - all lectures are moved to G05-313 
 
-> :rocket: The lecture of Wednesday, April 20th, is shifted to 9:00-10:30.
-> :rocket: :rocket: In the next lecture on Wednesday, April 19th, we will discuss [exercise sheet I](exercises/01/ueb01.pdf) 
+> :rocket: No lectures on May 3rd/4th and June 14th/15th.
 
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
@@ -33,7 +32,7 @@ Here you find basic and current information and materials for the lecture
  0. Linear DAEs with constant coefficients (4+1)
    * Basic algebraic concepts [[week 2]](#week-2)
    * Normal forms
-   * Solvability and representations of solutions
+   * Solvability and representations of solutions [[week 3]](#week-3)[[week 4]](#week-4)
  0. Linear time-varying and nonlinear DAEs (4+1)
    * Fundamental differences with the linear time-invariant case
    * *Derivative Arrays*
@@ -81,3 +80,15 @@ Here you find basic and current information and materials for the lecture
 
 #### Linear DAEs with constant coefficients (2)
 +++ splitting of DAEs into an ODE and a nilpotent DAE +++ explicit solution of the nilpotent DAE +++ index of a matrix pair (E,A) and its well-definedness +++ [back to overview](#overview)
+
+### Week 3
+
+#### Linear DAEs with constant coefficients (3)
++++ solvability solved +++ way to arrive at a explicit solution formula +++ definition of the Drazin inverse +++ properties of the Drazin inverse +++ [back to overview](#overview)
+
+#### Exercise sheet 1
++++ multibody systems +++ separation of algebraic and differential parts +++ remodelling of the simple pendulum as ODE +++ Navier-Stokes equations +++ [back to overview](#overview)
+
+### Week 4
+#### Linear DAEs with constant coefficients (4)
++++ DAE as superposition of a nilpotent DAE and an *index-1* DAE +++ explicit formula for all solutions of the homogeneous equations +++ explicit form of a solution of the inhomogeneous equations +++ [back to overview](#overview)
