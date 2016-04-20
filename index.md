@@ -90,5 +90,7 @@ Here you find basic and current information and materials for the lecture
 +++ multibody systems +++ separation of algebraic and differential parts +++ remodelling of the simple pendulum as ODE +++ Navier-Stokes equations +++ [back to overview](#overview)
 
 ### Week 4
+
 #### Linear DAEs with constant coefficients (4)
+
 +++ DAE as superposition of a nilpotent DAE and an *index-1* DAE +++ explicit formula for all solutions of the homogeneous equations +++ explicit form of a solution of the inhomogeneous equations +++ [back to overview](#overview)
