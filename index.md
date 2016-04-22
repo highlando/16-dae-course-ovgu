@@ -53,9 +53,9 @@ Here you find basic and current information and materials for the lecture
 
 ### Exercises
 
-| Date | Topic | link |
+| Date | Topic | Sheet |
 | ------- | ------ | ------- |
-| April 20th | I - Introductory Considerations and Basic Notions | [ueb1.pdf](exercises/01/ueb01.pdf) |
+| [April 20th](#exercisei) | I - Introductory Considerations and Basic Notions | [ueb1.pdf](exercises/01/ueb01.pdf) |
 
 ### Week 1
 
@@ -86,7 +86,7 @@ Here you find basic and current information and materials for the lecture
 #### Linear DAEs with constant coefficients (3) - April 19th
 +++ solvability solved +++ way to arrive at a explicit solution formula +++ definition of the Drazin inverse +++ properties of the Drazin inverse +++ [back to overview](#overview)
 
-#### Exercise sheet I - April 20th
+<h4 id="exercisei"> Course Exercise sheet I - April 20th </h4>
 +++ multibody systems +++ separation of algebraic and differential parts +++ remodelling of the simple pendulum as ODE +++ Navier-Stokes equations +++ links to [ode modelling of the pendulum](http://www.engr.iupui.edu/~skoskie/ECE680/ECE680_l3notes.pdf) and the overhead crane +++ [back to overview](#overview)
 
 ### Week 4 
