@@ -7,8 +7,6 @@ Course DAEs - OvGU - 2016
 
 > :rocket: We have a new room - all lectures are relocated to G05-313.
 
-> :rocket: The lecture on Wednesday, April 20th, is shifted to 09:00-10:30.
-
 > :rocket: No lectures on May 3rd/4th and June 14th/15th.
 
 Here you find basic and current information and materials for the lecture 
@@ -83,16 +81,16 @@ Here you find basic and current information and materials for the lecture
 #### Linear DAEs with constant coefficients (2)
 +++ splitting of DAEs into an ODE and a nilpotent DAE +++ explicit solution of the nilpotent DAE +++ index of a matrix pair (E,A) and its well-definedness +++ [back to overview](#overview)
 
-### Week 3
+### Week 3 
 
-#### Linear DAEs with constant coefficients (3)
+#### Linear DAEs with constant coefficients (3) - April 19th
 +++ solvability solved +++ way to arrive at a explicit solution formula +++ definition of the Drazin inverse +++ properties of the Drazin inverse +++ [back to overview](#overview)
 
-#### Exercise sheet I
-+++ multibody systems +++ separation of algebraic and differential parts +++ remodelling of the simple pendulum as ODE +++ Navier-Stokes equations +++ [back to overview](#overview)
+#### Exercise sheet I - April 20th
++++ multibody systems +++ separation of algebraic and differential parts +++ remodelling of the simple pendulum as ODE +++ Navier-Stokes equations +++ links to [ode modelling of the pendulum](http://www.engr.iupui.edu/~skoskie/ECE680/ECE680_l3notes.pdf) and the overhead crane +++ [back to overview](#overview)
 
-### Week 4
+### Week 4 
 
-#### Linear DAEs with constant coefficients (4)
+#### Linear DAEs with constant coefficients (4) - April 26th
 
 +++ DAE as superposition of a nilpotent DAE and an *index-1* DAE +++ explicit formula for all solutions of the homogeneous equations +++ explicit form of a solution of the inhomogeneous equations +++ [back to overview](#overview)
