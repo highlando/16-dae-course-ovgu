@@ -1,0 +1,95 @@
+
+% Infozettel zur Vorlesung Numerik 2 WS 09/10
+%
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{setspace}
+\textheight 700 pt
+\textwidth 450 pt
+\oddsidemargin 0 pt
+\evensidemargin 0 pt
+\topmargin -27 pt
+\headheight 0 pt
+\headsep 0 pt
+\parindent 0 pt
+\pagestyle{empty}
+\input{../mathComAbb}
+
+\begin{document}
+
+{\bf Otto von Guericke Universit{\"a}t Magdeburg \hfill Summer Term 2016} \\
+{\bf Fakult\"at II -- Mathematik und Naturwissenschaften} \\
+{\bf Institut f\"ur Mathematik} \\
+Jan Heiland \hfill as of: \today \\
+
+
+\bigskip
+\begin{center}
+\textbf{\large Differential Algebraic Equations}\\
+\smallskip
+\textbf{Exercise Sheet 1 -- Linear DAEs with constant coefficients}\\
+\end{center}
+
+\bigskip
+
+% ----------------------------------------------------------------------
+
+{\bf A Regularity and Kronecker Forms}
+
+Check whether the matrix pairs 
+\begin{equation*}
+	\biggl( 
+\begin{bmatrix} 1 & 1 &0 \\ 0 &-1 &1 \\ 0 &0 &0 \end{bmatrix},
+\begin{bmatrix} 1  &0 &0 \\ 0 &1 &-1 \\ 0 &-1 &1 \end{bmatrix}
+	\biggr)
+	\andi
+	\biggl( 
+\begin{bmatrix} 2 &-1 &1 \\ 3 &-2 &2 \\ 0 &0 &0 \end{bmatrix},
+\begin{bmatrix} 1 &0 &0 \\ 0 &1 &-1 \\ 1 &-1 &1 \end{bmatrix}
+	\biggr)
+\end{equation*}
+are regular or singular and determine their Kronecker canonical forms by elementary row and column transforms.
+\smallskip
+
+{\bf B Index-$1$ condition}
+
+Show that the matrix pair 
+\begin{equation*}
+	(E, A) = 
+	\biggl( 
+\begin{bmatrix} I_r &0 \\ 0 &0 \end{bmatrix}, 
+	\begin{bmatrix} A_{11} & A_{12} \\ A_{21} & A_{22} \end{bmatrix}
+	\biggr)
+\end{equation*}
+with $E$, $A\in \mathbb C^{m,n}$, and $r<\min\{m,n\}$, is of index $1$ if, and only if, $A_{22}$ is square and nonsingular.
+
+\smallskip
+
+{\bf C Regularity and commutativity}
+
+Let $E$, $A\in \mathbb C^{n,n}$ satisfy $EA=AE$. Show
+\begin{enumerate}
+	\item that $(E, A)$ is regular if, and only if, $\kernel E \cap \kernel A = \{0\}$
+	\item and that $\ind (E,A) = \ind E$.
+\end{enumerate}
+\smallskip
+
+{\bf D Regularity and commutativity II}
+
+Let $(E,A)$ be regular with $E$, $A\in \mathbb C^{n,n}$. For a $\tilde \lambda$ such that $\tilde \lambda E - A$ is invertible, show
+\begin{enumerate}
+	\item that $\tilde E := (\tilde \lambda E - A)^{-1}E$ and $\tilde A := (\tilde \lambda E - A)^{-1}A$ commute
+	\item and that $\ind (E, A) = \ind \tilde E$.
+\end{enumerate}
+\smallskip
+
+{\bf E Drazin inverse as group inverse}
+
+If $\ind E \leq 1$, then the Drazin inverse $E^D$ is also called group inverse of $E$ and denoted by $E^\#$. Show that $E \in \mathbb C^{n,n}$ is an element of \emph{a} group $\mathbb G \subset \mathbb C^{n,n}$ with the matrix multiplication if and only if $\ind E \leq 1$, and that the inverse in such a group is just $E^\#$. (Note: The question is whether $E$ is a member of some group. I was wrong in the lecture. The Drazin inverse does not extend the group of regular matrices to matrices of index smaller or equal $1$)
+\smallskip
+
+{\bf F Drazin inverse property}
+
+Prove that $( ( E^D)^D)^D=E^D$ for all $E\in \mathbb C^{m,n}$ 
+\end{document}

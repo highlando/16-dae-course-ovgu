@@ -1,0 +1,107 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{setspace}
+\textheight 600 pt
+\textwidth 450 pt
+\oddsidemargin 0 pt
+\evensidemargin 0 pt
+% \topmargin -27 pt
+\headheight 0 pt
+\headsep 0 pt
+\parindent 0 pt
+\pagestyle{empty}
+\input{../mathComAbb}
+
+\begin{document}
+
+{\bf Otto von Guericke Universit{\"a}t Magdeburg \hfill Summer Term 2016} \\
+{\bf Fakult\"at f\"ur Mathematik} \\
+{\bf Max-Planck Institut f\"ur Dynamik komplexer technischer Systeme} \\
+Jan Heiland \hfill as of: \today \\
+
+
+\bigskip
+\begin{center}
+\textbf{\large Differential Algebraic Equations}\\
+\smallskip
+\textbf{Exercise Sheet I -- Introductory Considerations and Basic Notions}\\
+\end{center}
+
+\bigskip
+
+% ----------------------------------------------------------------------
+{\bf A Multi-body systems}
+
+Many multibody system can be modelled
+\begin{subequations}
+	\label{eq:genmbsys}
+	\begin{align}
+		M\dot x &= M v \\
+		M\dot v &= Ax + Kv - G(x)^T\lambda + f, \\
+		0&= g(x),
+	\end{align}
+\end{subequations}
+with $x(t)\in \mathbb R^{n}$, $\lambda(t)\in \mathbb R^{m}$, $M\in \mathbb R^{n,n} $ symmetric strictly positive definite, $A\in\mathbb R^{n,n}$, $g\colon \mathbb R^{n} \to \mathbb R^{m}$, and 
+$$G(x):=
+\begin{bmatrix}
+	\frac{\partial g_1}{\partial x_1}(x) & \hdots & \frac{\partial g_1}{\partial x_n}(x) \\
+	\vdots & \ddots & \vdots \\
+	\frac{\partial g_m}{\partial x_1}(x) & \hdots & \frac{\partial g_m}{\partial x_n}(x)
+\end{bmatrix},
+$$
+is the Jacobian of $g$ at $x$, with $m<n$ and $G(x)$ having full rank for any $x$ with $g(x)=0$.
+\begin{enumerate}
+	\item Show that the pendulum (lecture: Exa. 1.1) can be brought into the form \eqref{eq:genmbsys}.
+	\item Find, write down, and explain another multibody system that can be modelled in the form of \eqref{eq:genmbsys}. 
+\end{enumerate}
+
+\bigskip
+
+{\bf B Separation of differential and algebraic parts}
+
+Under certain regularity assumptions, a general DAE
+\begin{equation*}
+	\mathcal F(t, x, \dot x) = 0
+\end{equation*}
+can locally be brought into the form 
+\begin{subequations}\label{eq:wellsepform}
+	\begin{align}
+		\dot x_1 &= \mathcal L(t, x_1, x_2), \\
+		x_2 &= \mathcal R(t, x_1),
+	\end{align}
+\end{subequations}
+by means of differentiation, elimination, and the splitting $x=[x_1,x_2]$.
+\begin{enumerate}
+	\item Bring the \emph{circuit} example (lecture: Exa. 1.2) into the form \eqref{eq:wellsepform} with $\mathcal L$ and $\mathcal R$ defined explicitly. How many differentiations did you need? What were the necessary regularity conditions?
+	\item Bring the \emph{pendulum} example (lecture: Exa. 1.1) into the form \eqref{eq:wellsepform}. Here, $\mathcal L$ and $\mathcal R$ may be defined implicitly. How many differentiations did you need? What were the necessary regularity conditions?
+	\item How can one express consistency conditions for an intial value $x_0$ by means of formulation \eqref{eq:wellsepform}.
+\end{enumerate}
+
+\bigskip
+
+{\bf C Modelling the pendulum anew}
+
+The pendulum can also be modelled as a pure ODE, e.g., by means of certain \emph{generalized coordinates}. Present such a model and discuss advantages of the different formulations in view of a general multibody system or \emph{Automatic Modelling} (L1).
+\bigskip
+
+{\bf D Spatially discretized linearized Navier-Stokes equations}
+
+In simulations of flows, equations of the form 
+\begin{subequations}
+	\label{eq:spatlinnse}
+	\begin{align}
+		M \dot v &= Av - B^Tp, \quad v(0)=v_0\in \mathbb R^{n} \\
+		0 &= Bv-g
+	\end{align}
+\end{subequations}
+with $v(t) \in \mathbb R^{n}$, $p(t) \in \mathbb R^{m}$, $g(t)\in\mathbb R^{m}$, and $A$, $M \in \mathbb R^{n,n}$, and $B\in \mathbb R^{m,n}$, such that $M$ is invertible as is $BM^{-1}B^T$. Equation \eqref{eq:wellsepform} typically represents a spatially discretized and linearized Navier-Stokes equation.
+\begin{enumerate}
+	\item Reformulate \eqref{eq:spatlinnse} in the form of \eqref{eq:wellsepform}. How many differentiations did you need? What were the necessary regularity conditions?
+	\item Write down an ODE initial value problem for $v$ and express its solution explicitly. (Hint: \emph{Variation of Constants})
+	\item Prove that any $v$ that solves the initial value problem \eqref{eq:spatlinnse} also solves the ODE from {\bf D}.2. What about the converse direction?
+\end{enumerate}
+\smallskip
+
+
+\end{document}
