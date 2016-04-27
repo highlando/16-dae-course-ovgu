@@ -5,9 +5,9 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
-> :rocket: We have a new room - all lectures are relocated to G05-313.
-
 > :rocket: No lectures on May 3rd/4th and June 14th/15th.
+
+> :rocket: New exercise sheet [ueb2.pdf](exercises/02/ueb02.pdf), to be discussed on May 11th
 
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
@@ -56,6 +56,7 @@ Here you find basic and current information and materials for the lecture
 | Date | Topic | Sheet |
 | ------- | ------ | ------- |
 | [April 20th](#exercisei) | I - Introductory Considerations and Basic Notions | [ueb1.pdf](exercises/01/ueb01.pdf) |
+| [May 11th](#exerciseii) | II - Linear DAEs with constant coefficients | [ueb2.pdf](exercises/02/ueb02.pdf) |
 
 ### Week 1
 
@@ -94,3 +95,7 @@ Here you find basic and current information and materials for the lecture
 #### Linear DAEs with constant coefficients (4) - April 26th
 
 +++ DAE as superposition of a nilpotent DAE and an *index-1* DAE +++ explicit formula for all solutions of the homogeneous equations +++ explicit form of a solution of the inhomogeneous equations +++ [back to overview](#overview)
+
+#### Linear DAEs with time-varying coefficients (4) - April 27th
+
++++ regularity of matrix pairs does not say much about solvability of LTV DAEs +++ time-dependent state transformations +++ global and local equivalence of matrix function pairs +++ [back to overview](#overview)
