@@ -7,7 +7,7 @@ Course DAEs - OvGU - 2016
 
 > :rocket: No lectures on May 3rd/4th and June 14th/15th.
 
-> :rocket: New exercise sheet [ueb2.pdf](exercises/02/ueb02.pdf), to be discussed on May 11th
+> :rocket: New exercise sheet [ueb2.pdf](exercises/02/ueb2.pdf), to be discussed on May 11th
 
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
@@ -56,7 +56,7 @@ Here you find basic and current information and materials for the lecture
 | Date | Topic | Sheet |
 | ------- | ------ | ------- |
 | [April 20th](#exercisei) | I - Introductory Considerations and Basic Notions | [ueb1.pdf](exercises/01/ueb01.pdf) |
-| [May 11th](#exerciseii) | II - Linear DAEs with constant coefficients | [ueb2.pdf](exercises/02/ueb02.pdf) |
+| [May 11th](#exerciseii) | II - Linear DAEs with constant coefficients | [ueb2.pdf](exercises/02/ueb2.pdf) |
 
 ### Week 1
 
