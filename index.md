@@ -7,7 +7,7 @@ Course DAEs - OvGU - 2016
 
 > :rocket: No lectures on May 3rd/4th and June 14th/15th.
 
-> :rocket: New exercise sheet [ueb2.pdf](exercises/02/ueb2.pdf), to be discussed on May 11th
+> :rocket: New exercise sheet [ueb2.pdf](exercises/02/ueb2.pdf), to be discussed on May 11th. :rocket: :rocket: There was an update to the current exercise sheet on May 9th
 
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
