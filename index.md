@@ -34,7 +34,8 @@ Here you find basic and current information and materials for the lecture
    * Normal forms
    * Solvability and representations of solutions [[week 3]](#week-3)[[week 4]](#week-4)
  0. Linear time-varying and nonlinear DAEs (4+1)
-   * Fundamental differences with the linear time-invariant case
+   * Fundamental differences with the linear time-invariant case 
+   * Time-dependent equaivalence transformations and canonical forms [[week 5]](#week-5)
    * *Derivative Arrays*
    * *Differentiation-index and Strangeness-index*
  0. Numerical integration of DAEs (6+2)
@@ -96,6 +97,15 @@ Here you find basic and current information and materials for the lecture
 
 +++ DAE as superposition of a nilpotent DAE and an *index-1* DAE +++ explicit formula for all solutions of the homogeneous equations +++ explicit form of a solution of the inhomogeneous equations +++ [back to overview](#overview)
 
-#### Linear DAEs with time-varying coefficients (4) - April 27th
+#### Linear DAEs with time-varying coefficients (1) - April 27th
 
 +++ regularity of matrix pairs does not say much about solvability of LTV DAEs +++ time-dependent state transformations +++ global and local equivalence of matrix function pairs +++ [back to overview](#overview)
+
+### Week 5 
+
+#### Linear DAEs with time-varying coefficients (2) - May 10th
+
++++ characteristic values +++ canonical form for local equivalence transformations +++ time-varying SVD +++ canonical form for global equivalence transformations +++ [back to overview](#overview)
+
+<h4 id="exerciseii"> Course Exercise sheet II - May 11th </h4>
++++ regularity and Kronecker form of 3x3 examples +++ index-1 condition +++ regularity and commutativity +++ Drazin inverse as group inverse +++ [back to overview](#overview)
