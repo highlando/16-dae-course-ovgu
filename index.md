@@ -35,7 +35,7 @@ Here you find basic and current information and materials for the lecture
    * Solvability and representations of solutions [[week 3]](#week-3)[[week 4]](#week-4)
  0. Linear time-varying and nonlinear DAEs (4+1)
    * Fundamental differences with the linear time-invariant case 
-   * Time-dependent equaivalence transformations and canonical forms [[week 5]](#week-5)
+   * Time-dependent equivalence transformations and canonical forms [[week 5]](#week-5)
    * *Derivative Arrays*
    * *Differentiation-index and Strangeness-index*
  0. Numerical integration of DAEs (6+2)
