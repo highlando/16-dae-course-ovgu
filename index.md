@@ -5,9 +5,9 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
-> :rocket: No lectures on May 3rd/4th and June 14th/15th.
+> :rocket: June 14th/15th - we will occasionally prolong the Tuesday's lectures by 20 minutes to compensate for that.
 
-> :rocket: New exercise sheet [ueb2.pdf](exercises/02/ueb2.pdf), to be discussed on May 11th. :rocket: :rocket: There was an update to the current exercise sheet on May 9th
+> :rocket: New exercise sheet [ueb3.pdf](exercises/03/ueb3.pdf), to be discussed on May 18th. :rocket: :rocket: This session is moved to 7:30-8:45. Alternatively, you can hand in your exercises.
 
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
@@ -58,6 +58,7 @@ Here you find basic and current information and materials for the lecture
 | ------- | ------ | ------- |
 | [April 20th](#exercisei) | I - Introductory Considerations and Basic Notions | [ueb1.pdf](exercises/01/ueb01.pdf) |
 | [May 11th](#exerciseii) | II - Linear DAEs with constant coefficients | [ueb2.pdf](exercises/02/ueb2.pdf) |
+| [May 18th](#exerciseiii) | III - Linear DAEs with time-varying coefficients | [ueb3.pdf](exercises/03/ueb3.pdf) |
 
 ### Week 1
 
@@ -109,3 +110,9 @@ Here you find basic and current information and materials for the lecture
 
 <h4 id="exerciseii"> Course Exercise sheet II - May 11th </h4>
 +++ regularity and Kronecker form of 3x3 examples +++ index-1 condition +++ regularity and commutativity +++ Drazin inverse as group inverse +++ [back to overview](#overview)
+
+### Week 5 
+
+#### Linear DAEs with time-varying coefficients (3) - May 17th
+
+<h4 id="exerciseiii"> Course Exercise sheet III - May 18th </h4>
