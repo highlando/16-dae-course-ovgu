@@ -34,7 +34,7 @@ Here you find basic and current information and materials for the lecture
  0. Linear time-varying and nonlinear DAEs (4+1)
    * Fundamental differences with the linear time-invariant case 
    * Time-dependent equivalence transformations and canonical forms [[week 5]](#week-5)
-   * *Derivative Arrays*
+   * *Derivative Arrays* [[week 6]](#week-6)
    * *Differentiation-index and Strangeness-index*
  0. Numerical integration of DAEs (6+2)
    * Digression: Numerical integration of ODEs
@@ -114,3 +114,9 @@ Here you find basic and current information and materials for the lecture
 #### Linear DAEs with time-varying coefficients (3) - May 17th
 
 <h4 id="exerciseiii"> Course Exercise sheet III - May 18th </h4>
+
+### Week 6
+#### Linear DAEs with time-varying coefficients (4) - May 24th
++++ derivative arrays +++ strangeness free condensed form of linearized Navier-Stokes equations +++ derivative arrays for nonlinear DAEs +++ [back to overview](#overview)
+#### Digression: Numerical Solutions of ODEs - May 25th
++++ basic definitions +++ implicit/explicit Euler +++ consistency and stability +++ Runge-Kutta schemes +++ BDF schemes +++ [back to overview](#overview)
