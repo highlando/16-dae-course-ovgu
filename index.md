@@ -5,9 +5,7 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
-> :rocket: June 14th/15th - we will occasionally prolong the Tuesday's lectures by 20 minutes to compensate for that.
-
-> :rocket: New exercise sheet [ueb3.pdf](exercises/03/ueb3.pdf), to be discussed on May 18th. :rocket: :rocket: This session is moved to 7:30-8:45. Alternatively, you can hand in your exercises.
+> :rocket: No lectures on June 14th/15th - we will occasionally prolong the Tuesday's lectures by 20 minutes to compensate for that.
 
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
