@@ -116,7 +116,9 @@ Here you find basic and current information and materials for the lecture
 <h4 id="exerciseiii"> Course Exercise sheet III - May 18th </h4>
 
 ### Week 6
+
 #### Linear DAEs with time-varying coefficients (4) - May 24th
 +++ derivative arrays +++ strangeness free condensed form of linearized Navier-Stokes equations +++ derivative arrays for nonlinear DAEs +++ [back to overview](#overview)
+
 #### Digression: Numerical Solutions of ODEs - May 25th
 +++ basic definitions +++ implicit/explicit Euler +++ consistency and stability +++ Runge-Kutta schemes +++ BDF schemes +++ [back to overview](#overview)
