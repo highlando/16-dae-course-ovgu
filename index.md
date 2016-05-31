@@ -38,7 +38,7 @@ Here you find basic and current information and materials for the lecture
    * *Differentiation-index and Strangeness-index*
  0. Numerical integration of DAEs (6+2)
    * Digression: Numerical integration of ODEs
-   * Runge-Kutta methods for DAEs
+   * Runge-Kutta methods for DAEs [[week 7]](#week-7)
    * *Backward Differencing* for DAEs
  0. Methods for index reduction (2+1)
    * Theory
@@ -122,3 +122,12 @@ Here you find basic and current information and materials for the lecture
 
 #### Digression: Numerical Solutions of ODEs - May 25th
 +++ basic definitions +++ implicit/explicit Euler +++ consistency and stability +++ Runge-Kutta schemes +++ BDF schemes +++ [back to overview](#overview)
+
+
+### Week 7
+
+#### Numerical Solutions of DAEs (1) - May 31th
++++ basic notions and definitions +++ Kronecker product and perfect shuffle +++ Runge-Kutta methods +++ [back to overview](#overview)
+
+#### Numerical Solutions of DAEs (2) - June 1st
++++ Numerical analysis of Runge-Kutta schemes for DAEs with constant coefficients +++ [back to overview](#overview)
