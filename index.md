@@ -1,9 +1,11 @@
----
+--
 layout: index
 ---
 
 Course DAEs - OvGU - 2016
 -----
+
+> :rocket: New exercise sheet is out. [Exercise 4](exercises/04/ueb04.pdf) will be discussed on June 8th.
 
 > :rocket: No lectures on June 14th/15th - we will occasionally prolong the Tuesday's lectures by 20 minutes to compensate for that.
 
@@ -56,8 +58,8 @@ Here you find basic and current information and materials for the lecture
 | ------- | ------ | ------- |
 | [April 20th](#exercisei) | I - Introductory Considerations and Basic Notions | [ueb1.pdf](exercises/01/ueb01.pdf) |
 | [May 11th](#exerciseii) | II - Linear DAEs with constant coefficients | [ueb2.pdf](exercises/02/ueb2.pdf) |
-| [May 18th](#exerciseiii) | III - Linear DAEs with time-varying coefficients | [ueb3.pdf](exercises/03/ueb3.pdf) |
-
+| [May 18th](#exerciseiii) | iii - linear daes with time-varying coefficients | [ueb3.pdf](exercises/03/ueb3.pdf) |
+| [June 8th](#exerciseiv) | iv - one step methods | [ueb4.pdf](exercises/04/ueb04.pdf) |
 ### Week 1
 
 #### Introductory considerations (1)
@@ -131,3 +133,9 @@ Here you find basic and current information and materials for the lecture
 
 #### Numerical Solutions of DAEs (2) - June 1st
 +++ Numerical analysis of Runge-Kutta schemes for DAEs with constant coefficients +++ [back to overview](#overview)
+
+### Week 8
+
+#### Numerical Solutions of DAEs (3) - June 7th
+
+<h4 id="exerciseiv"> Course Exercise sheet IV - June 8th </h4>
