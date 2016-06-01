@@ -138,4 +138,4 @@ Here you find basic and current information and materials for the lecture
 
 #### Numerical Solutions of DAEs (3) - June 7th
 
-<h4 id="exerciseiv"> Course Exercise sheet IV - June 8th </h4>
+<h4 id="exerciseiv">Course Exercise sheet IV - June 8th </h4>
