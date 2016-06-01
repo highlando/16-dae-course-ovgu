@@ -1,4 +1,3 @@
-*.backup
-materials
-ovgu-modulbeschreibung-daes
-concnotes.md
+_site
+.sass-cache
+.jekyll-metadata
