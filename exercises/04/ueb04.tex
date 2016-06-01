@@ -1,0 +1,174 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{setspace}
+\textheight 700 pt
+\textwidth 450 pt
+\oddsidemargin 0 pt
+\evensidemargin 0 pt
+\topmargin -27 pt
+\headheight 0 pt
+\headsep 0 pt
+\parindent 0 pt
+\pagestyle{empty}
+\input{../mathComAbb}
+
+\begin{document}
+
+{\bf Otto von Guericke Universit{\"a}t Magdeburg \hfill Summer Term 2016} \\
+{\bf Fakult\"at II -- Mathematik und Naturwissenschaften} \\
+{\bf Institut f\"ur Mathematik} \\
+Jan Heiland \hfill as of: \today \\
+
+
+\bigskip
+\begin{center}
+\textbf{\large Differential Algebraic Equations}\\
+\smallskip
+\textbf{Exercise Sheet 4 -- One Step Methods}\\
+\end{center}
+
+\bigskip
+
+% ----------------------------------------------------------------------
+We consider the initial value problems 
+\begin{equation}
+	\dot x = f(t, x), \quad x(t_0) = x_0,
+	\label{eqode}\tag{ODE}
+\end{equation}
+and 
+\begin{equation}
+	F(t, x, \dot x)=, \quad x(t_0) = x_0,
+	\label{eqdae}\tag{DAE}
+\end{equation}
+on the time interval $[t_0, T]$. On the grid
+$$t_0<t_1<\dotsm<t_N,$$
+where $N\in\mathbb N$, where $t_k = t_0 + kh$, and where $h=\frac{T-t_0}{N}$, let $x_{k}$ denote a numerical approximation to $x(t_k)$, where $x$ is a solution to \eqref{eqode} or \eqref{eqdae}. We use the general form
+\begin{equation*}
+	\mathfrak X_{k+1} = \mathfrak F(t_{k}, \mathfrak X_{k}, h)
+\end{equation*}
+to refer to a given numerical scheme.
+
+{\bf A Effect of Rounding Errors}
+Consider the \emph{Explicit Euler} scheme
+\begin{equation*}
+	x_{k+1} = x_{k} + hf(t_{k}, x_{k})
+\end{equation*}
+and show that the error $e_{k} = x_{k} - y_{k}$, where $y_{k}$ are the iterates of the perturbed scheme
+\begin{equation*}
+	y_{k+1} = y_{k} + hf(t_{k}, y_{k}) + \varepsilon_{k},
+\end{equation*}
+and where $\varepsilon_{k}$ denotes the rounding error, behaves like $\norm{e_{N}} \approx \max_{k}\{\epsilon_k\}h^{-1}$.
+
+\smallskip
+{\bf B Order of Consistency}
+Determine the order of consistency of the Runge--Kutta scheme
+\begin{table}[h]
+	\centering
+	\begin{tabular}{c|cc}
+		$0$ &$ 0$ & \\
+		$\frac 12$ &$ \frac 12$ &$ 0$\\
+		\hline
+		&$0$&$1$
+	\end{tabular}
+\end{table}
+
+by directly estimating $\norm{\mathfrak X(t_{k+1}) - \mathfrak F(t_{k+1}, \mathfrak X(t_{k+1}), h)}$.
+
+\smallskip
+
+{\bf C Two-stage Gauss method for ODEs and DAEs}
+Consider the \emph{Gauss} method of order $2$:
+\begin{table}[h]
+	\centering
+	\begin{tabular}{c|cc}
+		$\frac 12 -\frac{\sqrt{3}}{6} $ &$ \frac 14$ &$\frac 14 -\frac{\sqrt{3}}{6}$ \\
+		$\frac 12 +\frac{\sqrt{3}}{6}$ &$ \frac 14 + \frac{\sqrt{3}}{6}$ &$ \frac 14$\\
+		\hline
+		&$\frac 12$&$\frac 12$
+	\end{tabular}
+\end{table}
+\begin{enumerate}
+	\item Determine the order of convergence for ODEs using \emph{Butcher's Theorem} (lecture: Thm. 5.9).
+	\item Show that $\kappa_1=2$ and $\kappa_2=2$ as defined in lecture: Thm. 5.10. What does this mean for the numerical approximation of DAEs?
+\end{enumerate}
+\smallskip
+
+{\bf D Kronecker and Runge--Kutta}
+Show that for the DAE with constant coefficients $E\dot x = Ax+f(t)$, the stage derivatives $\dot X_{ij}$, $j=1,\dots, s$ at time step $i$ of an $s$-stage Runge--Kutta method $(\mathcal A, \beta, \gamma)$, are defined through the linear system
+\begin{equation*}
+	(I_s \otimes E - h \mathcal A\otimes A) \dot X_i = Z_i,
+\end{equation*}
+where $\dot X_i := [\dot X_{il}]_{l=1,\dots,s}$ and $Z_i = [Ax_{i}+f(t_{i}+\gamma_lh) ]_{l=1,\dots,s}$.
+\smallskip
+
+\begin{flushright}
+	Please turn the sheet.
+\end{flushright}
+
+\newpage
+
+{\bf Coding Exercises}
+\begin{enumerate}
+	\item Implement the \emph{explicit Euler} scheme for constant step sizes and test it on the ODE:
+		\begin{align*}
+			\dot x_1 &= \phantom{-}e^tx_2, \quad x_1(0)=\sin(1),\\
+			\dot x_2 &= -e^tx_1, \quad x_2(0)=\cos(1),
+		\end{align*}
+		through numerically computing $u_1(3)$ for stepsizes $h=3/2^k$, $k=5,6,\dots$. What do you observe? 
+	\item Implement the \emph{implicit Euler} scheme for DAEs for constant step sizes as a method that takes 
+		\begin{itemize}
+			\item a function $F(t,x,\dot x)$,
+			\item an initial value $x(t_0) = x_0$,
+			\item an interval $\mathbb I = [t_0, T]$,
+			\item and a number of discretization points $N$. 
+		\end{itemize}
+		It should return an array of the computed solution and a plot of it.
+		
+		Test your implementation on the following cases:
+		\begin{enumerate}
+			\item $F = E\dot x - Ax -f$, $x_0=[0,1]^T$, $\mathbb I = [0,10]$, and
+				\begin{equation*}
+					E(t) = 
+					\begin{bmatrix} -t &t^2 \\ -1 &t
+					\end{bmatrix}, \quad
+					A(t) = 
+					\begin{bmatrix} -1 &0 \\ 0 &-1
+					\end{bmatrix}, \quad
+					f(t) = 
+					\begin{bmatrix} 0 \\ 0
+					\end{bmatrix}.
+				\end{equation*}
+			\item $F = E\dot x - Ax -f$, $x_0=[1,1]^T$, $\mathbb I = [0,10]$, and
+				\begin{equation*}
+					E(t) = 
+					\begin{bmatrix} 0 & 0 \\ 1 & -1
+					\end{bmatrix}, \quad
+					A(t) = 
+					\begin{bmatrix} -1 &t \\ 0 & 0
+					\end{bmatrix}, \quad
+					f(t) = 
+					\begin{bmatrix} \sin(t) \\ \cos(t)
+					\end{bmatrix}.
+				\end{equation*}
+			\item $F = E\dot x - Ax -f$, $x_0=[0,1]^T$, $\mathbb I = [0,10]$, and
+				\begin{equation*}
+					E(t) = 
+					\begin{bmatrix} 1 & 1 \\ 0 & 0
+					\end{bmatrix}, \quad
+					A(t) = 
+					\begin{bmatrix} 0 &0 \\ 0 &-1
+					\end{bmatrix}, \quad
+					f(t) = 
+					\begin{bmatrix} e^t+\cos(t) \\ e^t
+					\end{bmatrix}.
+				\end{equation*}
+		\end{enumerate}
+		Compare the outcomes to the actual solutions (cf. the introducing examples of Section 4 in the lecture). Are the initial values consistent? If not, determine consistent ones? What happens for inconsistent initial values?
+\end{enumerate}
+
+
+
+
+
+\end{document}

@@ -1,0 +1,88 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{setspace}
+\textheight 700 pt
+\textwidth 450 pt
+\oddsidemargin 0 pt
+\evensidemargin 0 pt
+\topmargin -27 pt
+\headheight 0 pt
+\headsep 0 pt
+\parindent 0 pt
+\pagestyle{empty}
+\input{../mathComAbb}
+
+\begin{document}
+
+{\bf Otto von Guericke Universit{\"a}t Magdeburg \hfill Summer Term 2016} \\
+{\bf Fakult\"at II -- Mathematik und Naturwissenschaften} \\
+{\bf Institut f\"ur Mathematik} \\
+Jan Heiland \hfill as of: \today \\
+
+
+\bigskip
+\begin{center}
+\textbf{\large Differential Algebraic Equations}\\
+\smallskip
+\textbf{Exercise Sheet 3 -- Linear DAEs with Time-varying Coefficients}\\
+\end{center}
+
+\bigskip
+
+% ----------------------------------------------------------------------
+
+{\bf A (Local) Equivalence Transformation}
+
+Prove that the (local) equivalence transformation defined in Definition 4.6 in the lecture defines an equivalence relation.
+\smallskip
+
+{\bf B (Global) Equivalence and Solvability}
+
+Compute $\tilde E = PEQ$ and $\tilde A = PAQ - PE\dot Q$ for 
+\begin{equation*}
+	E(t) = \begin{bmatrix} 1 &0 \\ 0 &0 \end{bmatrix} ,\quad
+	A(t) = \begin{bmatrix} 0 &0 \\ 1 &0 \end{bmatrix} ,\quad
+	P(t) = \begin{bmatrix} t &1 \\ 1 &0 \end{bmatrix} ,\quad
+	Q(t) = \begin{bmatrix} -1 &t \\ 0 &-1 \end{bmatrix} ,
+\end{equation*}
+and for
+\begin{equation*}
+	E(t) = \begin{bmatrix} 0 &1 \\ 0 &0 \end{bmatrix} ,\quad
+	A(t) = \begin{bmatrix} 1 &0 \\ 0 &1 \end{bmatrix} ,\quad
+	P(t) = \begin{bmatrix} 0 &-1 \\ 1 &0 \end{bmatrix} ,\quad
+	Q(t) = \begin{bmatrix} 0 &-1 \\ 1 &-t \end{bmatrix} ,
+\end{equation*}
+compare it to the initial examples of Section 4 of the lecture, and interpret your observations.
+\smallskip
+
+{\bf C Characteristic Quantities I}
+
+Determine the (local) characteristic quantities $(r, a, s)$ of 
+\begin{equation}\label{eq:exa1}
+	(E(t), A(t)) = \bigl ( \begin{bmatrix} 0 &0 \\ 1 &\eta t \end{bmatrix},
+\begin{bmatrix} -1 &-\eta t  \\ 0 & -(1+\eta) \end{bmatrix}\bigr )
+\end{equation}
+for every $t\in\mathbb R^{}$ and for every $\eta \in \mathbb R^{}$.  
+\smallskip
+
+{\bf D Characteristic Quantities II}
+
+Determine the (local) characteristic quantities $(r, a, s)$ of 
+\begin{equation}\label{eq:exa2}
+	(E(t), A(t)) = \bigl ( \begin{bmatrix} 0 &0 \\ 0 & t \end{bmatrix},
+\begin{bmatrix} 1 & 0  \\ 0 & 1 \end{bmatrix}\bigr )
+\end{equation}
+for every $t\in\mathbb R^{}$.
+\smallskip
+
+{\bf E Drazin Inverse}
+
+For $E\in\mathcal C(I,\mathbb R^{n,n})$, we define the Drazin inverse pointwise $E^D$ pointwise via $E^D(t)=E(t)^D$. Determine the $E^D$ for the matrix functions $E$ from \eqref{eq:exa1} and \eqref{eq:exa2}. What do you observe?
+\smallskip
+
+{\bf F Global Characteristic Quantities}
+
+Compute the (global) characteristic quantities $(r_i, a_i, s_i)$, $i=1,\dots,\mu$, of the pair of matrix functions $(E,A)$ given in \eqref{eq:exa1}.
+
+\end{document}
