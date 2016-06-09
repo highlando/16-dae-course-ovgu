@@ -5,8 +5,6 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
-> :rocket: New exercise sheet is out. [Exercise 4](exercises/04/ueb04.pdf) will be discussed on June 8th.
-
 > :rocket: No lectures on June 14th/15th - we will occasionally prolong the Tuesday's lectures by 20 minutes to compensate for that.
 
 Here you find basic and current information and materials for the lecture 
