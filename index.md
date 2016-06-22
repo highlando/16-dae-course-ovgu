@@ -39,7 +39,7 @@ Here you find basic and current information and materials for the lecture
  0. Numerical integration of DAEs (6+2)
    * Digression: Numerical integration of ODEs
    * Runge-Kutta methods (RKM) for DAEs with constant coefficients [[week 7]](#week-7)
-   * RKM methods for semi-explicit "index-1" DAEs [[week 8]](#week-8)
+   * RKM methods for semi-explicit "index-1" DAEs [[week 9]](#week-9)
    * RKM methods for implicit "index-1" DAEs
    * *Backward Differencing* for DAEs
  0. Methods for index reduction (2+1)
