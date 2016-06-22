@@ -38,7 +38,9 @@ Here you find basic and current information and materials for the lecture
    * *Differentiation-index and Strangeness-index*
  0. Numerical integration of DAEs (6+2)
    * Digression: Numerical integration of ODEs
-   * Runge-Kutta methods for DAEs [[week 7]](#week-7)
+   * Runge-Kutta methods (RKM) for DAEs with constant coefficients [[week 7]](#week-7)
+   * RKM methods for semi-explicit "index-1" DAEs [[week 8]](#week-8)
+   * RKM methods for implicit "index-1" DAEs
    * *Backward Differencing* for DAEs
  0. Methods for index reduction (2+1)
    * Theory
@@ -138,7 +140,14 @@ Here you find basic and current information and materials for the lecture
 #### Numerical Solutions of DAEs (3) - June 7th
 +++ Numerical analysis of Runge-Kutta schemes for DAEs with constant coefficients +++ the global convergence error +++ [back to overview](#overview)
 
-
 <h4 id="exerciseiv">Course Exercise sheet IV - June 8th </h4>
 +++ effect of rounding errors +++ consistency errors +++ two-stage Gauss method for ODEs and DAEs +++ Runge-Kutta method for linear DAEs +++ CODING: C1:*Explicit Euler and rounding errors* +++  C2:*Implicit Euler* for linear DAEs with time-varying coefficients +++ Resources: Matlab implementation by Jens Bremer -- [[zip file](exercises/04/code/Ex4_JensBremer.zip)], Python implementation -- [[webview](exercises/04/code/4c2-ipynb.html)], [[ipython notebook](exercises/04/code/4c2.ipynb)], [[python file](exercises/04/code/4c2.py)] +++ [back to overview](#overview)
+
+### Week 9
+
+#### Numerical Solutions of DAEs (4) - June 20th
++++ Note on Runge-Kutta methods for linear time-varying DAEs +++ definition and analysis of Runge-Kutta schemes for semi-explicit "index-1" DAEs +++ [back to overview](#overview)
+
+#### Numerical Solutions of DAEs (5) - June 21st
++++ stiffly accurate Runge-Kutta methods +++ definition and analysis of Runge-Kutta schemes for implicit "index-1" DAEs +++ [back to overview](#overview)
 
