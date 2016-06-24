@@ -1,0 +1,158 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{verbatim}
+\usepackage{setspace}
+\usepackage{color}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,snakes}
+
+\textheight 700 pt
+\textwidth 450 pt
+\oddsidemargin 0 pt
+\evensidemargin 0 pt
+\topmargin -27 pt
+\headheight 0 pt
+\headsep 0 pt
+\parindent 0 pt
+\pagestyle{empty}
+
+\input{../mathComAbb}
+\definecolor{myLGray}{RGB}{225,225,225} % light light gray
+\definecolor{myRed1}{RGB}{210,105,30} % chocolate
+
+\begin{document}
+
+{\bf Otto von Guericke Universit{\"a}t Magdeburg \hfill Summer Term 2016} \\
+{\bf Fakult\"at f\"ur Mathematik} \\
+Jan Heiland \hfill as of: \today \\
+
+
+\bigskip
+\begin{center}
+\textbf{\large Differential Algebraic Equations}\\
+\smallskip
+\textbf{Exercise Sheet 5 -- Higher index DAEs and higher order RKM}\\
+\end{center}
+
+\bigskip
+
+% ----------------------------------------------------------------------
+
+\begin{figure}[h!]
+\centering
+\input{federwagen.tikz}
+\caption{Illustration of a $2$-body mass-spring chain moved by an input force $F$.}
+\label{fig_2Car_example}
+\end{figure}
+
+We consider the DAE in the variables $x_1$, $x_2$, and $F$,
+\begin{subequations}
+\label{eqn_twocar}
+\begin{align}
+    m_1\ddot x_1(t) &= \phantom{-} k \big(x_2(t) - x_1(t) - 0.5 \big) + F(t), \label{eqn_twocar_b}\\
+  m_2 \ddot x_2(t)&= - k \big(x_2(t) - x_1(t) - 0.5 \big), \label{eqn_twocar_a}\\
+        x_2(t) &= \phantom{-} g(t), \label{eqn_twocar_c}
+\end{align}
+\end{subequations}
+which derives from the task to steer a mass $m_2$ along a trajectory $g$ via acting on a connected mass $m_1$ through an unknown force $F$; cf. Figure \ref{fig_2Car_example}. The connection is given by a spring with a constant $k$.
+
+{\bf A Solution and the Index of the State Equations}
+
+Transfer the system \eqref{eqn_twocar} to a first order system $E\dot z = A z + f$ and determine the index of the resulting matrix pair $(E, A)$. What does this mean for the target trajectory $g$? Derive $F$ analytically.
+\smallskip
+
+{\bf B Index Reduction by Minimal Extension}
+
+Use the approach of \emph{Minimal Extension} to derive an equivalent representation of \eqref{eqn_twocar} with a lower index.
+\smallskip
+
+{\bf C \emph{Radau IIa} Schemes}
+The $1$- and the $2$-stages \emph{Radau IIa} schemes are given as 
+\smallskip
+
+\begin{minipage}[t]{.3\textwidth}
+	\centering
+		\begin{tabular}{c|c}
+			$1 $ &$1$ \\
+			\hline
+			&$ 1$\\
+		\end{tabular}
+\end{minipage} and
+\begin{minipage}[t]{.3\textwidth}
+	\centering
+	\begin{tabular}{c|cc}
+		$\frac 13 $ &$ \frac 5{12}$ &$-\frac 1{12}$ \\
+		$1$ &$ \frac 34 $ &$ \frac 14$\\
+		\hline
+		&$ \frac 34 $ &$ \frac 14$\\
+	\end{tabular}
+\end{minipage}.
+
+Show that for the $2$-stage scheme, the constants defined in Theorem $5.10$ are given as $\kappa_1=\infty$ and $\kappa_2 = 2$.
+
+\vfill
+
+\begin{flushright}
+	Please turn the sheet.
+\end{flushright}
+
+\newpage
+{\bf Coding Exercises}
+Implement a numerical time stepping scheme as described in Exercise 4. (You may use and extend the implementation that is for download on the website).
+\begin{enumerate}
+	\item Use the \emph{Implicit Euler} scheme to integrate the equations modelling the evolution of the pendulum:
+		\begin{subequations}\label{eq:pend}
+			\begin{align}
+				m\ddot x &= - 2(x-r_x)\lambda, \\
+				m\ddot y &= - 2(y-r_y)\lambda - mg, \\
+				0 &= (x-r_x)^{2} + (y-r_y)^2 - l^2, \label{eq:pendholo}
+			\end{align}
+		\end{subequations}
+		for suitable parameters $m$, $r=(r_x, r_y)$, $l$, and $g$ and suitable initial positions and velocities.
+
+	\item Use the \emph{Implicit Euler} scheme to integrate \eqref{eq:pend} in the (theoretically) equivalent reformulation, where \eqref{eq:pendholo} is replaced by 
+		\begin{equation*}
+			0 = 2(x-r_x)\dot x + 2(y-r_y)\dot y.
+		\end{equation*}
+		Evaluate the actual constraint \eqref{eq:pendholo} at the computed values and interprete your observations.
+	\item Use the 2-stage \emph{Radau IIa} scheme to integrate the equations modelling the mass-spring chain \eqref{eqn_twocar}, with the following parameters
+%
+\[
+  m_1 = 2 kg,\qquad 
+  m_2 = 1 kg, \qquad
+  k = 1 \tfrac Nm, \qquad 
+  d = 0.5m.
+\]
+%
+initial conditions
+\[
+  x_1(0) = 0.5 m,\ \dot x_1(0)  = 0 \tfrac ms, \qquad
+x_2(0) = 0 m,\ \dot x_2(0) = 0 \tfrac ms.
+\]
+%
+and the target trajectory defined via the start and $g_0 = 0.5m$ terminal positions $g_f = 2.5m$, and the manoeuvre $[0, 4s]$ via 
+%
+% 126 (t/T)^5 - 420 (t/T)^6 + 540 (t/T)^7 - 315 (t/T)^8 + 70 (t/T)^9
+% 1716*s**7 - 9009*s**8 + 20020*s**9 - 24024*s**10 + 16380*s**11 - 6006*s**12 + 924*s**13
+\begin{align*}
+% \label{eqn_trajectory_rest2rest}
+ g(t) = 
+ \begin{cases}
+	 g_0, 	& \text{if }0\leq t < 1, \\
+	 g_0 + p\big(\frac{t-1}{2} \big) (g_f-g_0), 	& \text{if }1\leq t \leq 3, \\
+	 g_f, 	& \text{if } 3 < t \leq 4,
+ \end{cases}
+\end{align*}
+with the polynomial
+
+%
+\[
+  p(s) = 1716 s^7 - 9009s^8 + 20020s^9 - 24024s^{10 }+ 16380s^{11 }- 6006s^{12 }+ 924s^{13}.
+\]
+%
+
+	\item Use the 2-stage \emph{Radau IIa} and the scheme to integrate the equations modelling the mass-spring chain \eqref{eqn_twocar} having applied the index reduction of \textbf{B}.
+	\item Use the 2-stage \emph{Radau IIa} scheme to integrate the equations \eqref{eq:pend} modelling the evolution of the pendulum. 
+\end{enumerate}
+
+\end{document}
