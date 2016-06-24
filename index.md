@@ -5,6 +5,8 @@ layout: index
 Course DAEs - OvGU - 2016
 -----
 
+> :rocket: The 5th exercise is up. We will discuss it in the last week of the course. That is Tuesday, July 5th.
+
 > :rocket: No lectures on June 14th/15th - we will occasionally prolong the Tuesday's lectures by 20 minutes to compensate for that.
 
 Here you find basic and current information and materials for the lecture 
@@ -60,6 +62,7 @@ Here you find basic and current information and materials for the lecture
 | [May 11th](#exerciseii) | II - Linear DAEs with constant coefficients | [ueb2.pdf](exercises/02/ueb2.pdf) |
 | [May 18th](#exerciseiii) | iii - linear daes with time-varying coefficients | [ueb3.pdf](exercises/03/ueb3.pdf) |
 | [June 8th](#exerciseiv) | iv - one step methods | [ueb4.pdf](exercises/04/ueb04.pdf) |
+| [July 5th](#exercisev) | v - higher index and nonlinear equations | [ueb5.pdf](exercises/05/ueb05.pdf) |
 
 ### Week 1
 
@@ -150,4 +153,8 @@ Here you find basic and current information and materials for the lecture
 
 #### Numerical Solutions of DAEs (5) - June 21st
 +++ stiffly accurate Runge-Kutta methods +++ definition and analysis of Runge-Kutta schemes for implicit "index-1" DAEs +++ [back to overview](#overview)
+
+### Week 11
+<h4 id="exercisev">Course Exercise sheet V - July 5th </h4>
++++ mass-spring chain +++ minimal extension +++ 2-stage Radau IIa +++ CODING: *Implicit Euler* for the nonlinear pendulum equations --- *Radau IIa* for the mass-spring manoeuvre --- simulation of index reduced systems +++ Resources: Use the code from the previous [exercise iv](#exerciseiv) --- check out the [*Oberwolfach snapshot*](http://www.mfo.de/math-in-public/snapshots/files/wie-steuert-man-einen-kran) on the mass-spring chain (in German) or the more verbose [preprint](http://www.mfo.de/scientific-programme/publications/owp/2015/OWP2015_18.pdf) (in English) +++ [back to overview](#overview)
 
