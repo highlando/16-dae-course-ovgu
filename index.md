@@ -7,8 +7,6 @@ Course DAEs - OvGU - 2016
 
 > :rocket: The 5th exercise is up. We will discuss it in the last week of the course. That is Tuesday, July 5th.
 
-> :rocket: No lectures on June 14th/15th - we will occasionally prolong the Tuesday's lectures by 20 minutes to compensate for that.
-
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
 
@@ -40,19 +38,16 @@ Here you find basic and current information and materials for the lecture
    * *Differentiation-index and Strangeness-index*
  0. Numerical integration of DAEs (6+2)
    * Digression: Numerical integration of ODEs
-   * Runge-Kutta methods (RKM) for DAEs with constant coefficients [[week 7]](#week-7)
+   * Runge-Kutta methods (RKM) for DAEs with constant coefficients [[week 7]](#week-7)[[week 8]](#week-8)
    * RKM methods for semi-explicit "index-1" DAEs [[week 9]](#week-9)
    * RKM methods for implicit "index-1" DAEs
-   * *Backward Differencing* for DAEs
- 0. Methods for index reduction (2+1)
-   * Theory
-   * Numerical realization
- 0. DAEs with controls (2)
+   * *Backward Differencing* for DAEs [[week 10]](#week-10)
+ 0. Numerical Methods for index reduction (1)
+   * Derivative Arrays
+   * Minimal Extension
+ 0. DAEs with controls (1) [[week 11]](#week-11)
    * Representation as *Behavior*
    * Index reduction through *Feedback*
- 0. Examples from recent research (2)
-   * Time integration
-   * Index reduction
 
 ### Exercises
 
@@ -60,9 +55,9 @@ Here you find basic and current information and materials for the lecture
 | ------- | ------ | ------- |
 | [April 20th](#exercisei) | I - Introductory Considerations and Basic Notions | [ueb1.pdf](exercises/01/ueb01.pdf) |
 | [May 11th](#exerciseii) | II - Linear DAEs with constant coefficients | [ueb2.pdf](exercises/02/ueb2.pdf) |
-| [May 18th](#exerciseiii) | iii - linear daes with time-varying coefficients | [ueb3.pdf](exercises/03/ueb3.pdf) |
-| [June 8th](#exerciseiv) | iv - one step methods | [ueb4.pdf](exercises/04/ueb04.pdf) |
-| [July 5th](#exercisev) | v - higher index and nonlinear equations | [ueb5.pdf](exercises/05/ueb05.pdf) |
+| [May 18th](#exerciseiii) | III - linear daes with time-varying coefficients | [ueb3.pdf](exercises/03/ueb3.pdf) |
+| [June 8th](#exerciseiv) | IV - one step methods | [ueb4.pdf](exercises/04/ueb04.pdf) |
+| [July 5th](#exercisev) | V - higher index and nonlinear equations | [ueb5.pdf](exercises/05/ueb05.pdf) |
 
 ### Week 1
 
@@ -153,6 +148,14 @@ Here you find basic and current information and materials for the lecture
 
 #### Numerical Solutions of DAEs (5) - June 21st
 +++ stiffly accurate Runge-Kutta methods +++ definition and analysis of Runge-Kutta schemes for implicit "index-1" DAEs +++ [back to overview](#overview)
+
+### Week 10 
+
+#### Numerical Solutions of DAEs (6) - June 27th
++++ general remarks on collocation Runge-Kutta methods +++ Backward differencing schemes for DAEs +++ [back to overview](#overview)
+
+#### Numerical Methods for Index Reduction - June 28th
++++ general concepts of index reduction +++ numerical approach to index reduction via derivative arrays +++ minimal extension +++ [back to overview](#overview)
 
 ### Week 11
 <h4 id="exercisev">Course Exercise sheet V - July 5th </h4>
