@@ -7,6 +7,8 @@ Course DAEs - OvGU - 2016
 
 > :rocket: The 5th exercise is up. We will discuss it in the last week of the course. That is Tuesday, July 5th.
 
+> :rocket: :rocket: There was a little mistake in the 5th exercise sheet (wrong initial conditions for the cars in the spring mass system) -- it's fixed now.
+
 Here you find basic and current information and materials for the lecture 
 *DAEs* at the OvGU in the summer term 2016.
 
