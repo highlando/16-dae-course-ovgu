@@ -10,7 +10,7 @@ Course DAEs - OvGU - 2016
 > :rocket: :rocket: There was a little mistake in the 5th exercise sheet (wrong initial conditions for the cars in the spring mass system) -- it's fixed now.
 
 Here you find basic and current information and materials for the lecture 
-*DAEs* at the OvGU in the summer term 2019.
+*DAEs* at the OvGU in the summer term 2016.
 
 | Day | Time | Place |
 | ------- | ------ | ------- |
